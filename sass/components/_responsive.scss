@@ -1,0 +1,37 @@
+@import "../mixins";
+@import "../variables";
+
+/* Add your responsiveness hook here  */
+/* ipad and tablet */
+@media(max-width: 1024px){
+	
+}
+
+/* ipad and tablet */
+@media(max-width: 800px){
+	.section.section-cast{
+        .content .c-left{
+            width: 100%;
+            justify-content: flex-start;
+            .wrapper{
+                flex-wrap: wrap;
+                header{
+                    width: 100%;
+                    margin-top: 10vh;
+                }
+                .carousel_wrap{
+                    width: 100%;
+                    .carousel_showcase{
+                        height: 50vh;
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+/* phone */
+@media(max-width: 600px){
+	
+}
